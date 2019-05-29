@@ -1,0 +1,69 @@
+body				{
+	font-family:		Sans-serif;
+	background-image: linear-gradient(to right, black, #2C5364);
+}
+
+/*Song Table*/
+
+.tbl				{
+	border-collapse:	collapse;
+}
+
+.song 				{
+	transition: 		background-color 0.5s, opacity 0.5s , border-left 0.2s , border-bottom 0.2s;
+	opacity: 			0.5;
+	color:				white;
+}
+
+.songid				{
+	text-align:			center;
+	background-color:	#2C5364;
+	font-size:			120%;
+	color:				rgb(226, 226, 226);
+	width:				20px;
+	height:				20px;
+	border-left:		0px;
+	border-bottom:		0px;
+	transition:			border-left 0.2s, border-bottom 0.2s;
+}
+.songname			{
+	width:				250px;
+}
+
+.songDelete			{
+	display:			block;
+	width:				0px;
+	height:				16px;
+	padding-top:		7px;
+	text-align: 		center;
+	opacity: 			0;
+	transition:			width 0.2s;
+}
+
+.song:hover 		{
+	opacity:			1;
+	color: 				white;
+}
+
+.song:hover .songid {
+	border-left: 		2px solid #0F2027;
+	border-bottom: 		2px solid #0F2027;
+	color:				white;
+}
+
+.song:hover .songDelete {
+	width: 				15px;
+	color:				white;
+	opacity: 			1;
+}
+
+/*header*/
+
+.header			{
+	width:			120px;
+	float:			right;
+	color:			white;
+	font-size:		20px;
+	height:			30px;
+	text-align:		center;
+}
