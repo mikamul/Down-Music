@@ -1,6 +1,6 @@
 ﻿body {
     font-family: Sans-serif;
-    background-image: linear-gradient(to right, #0F2027, #203A43, #2C5364);
+    background-image: linear-gradient(to right, black, #2C5364);
 }
 
 .tbl {
@@ -8,9 +8,9 @@
 }
 
 .song {
-    background-color: rgb(226, 226, 226);
     transition: background-color 0.5s, opacity 0.5s, border-left 0.2s, border-bottom 0.2s;
     opacity: 0.5;
+    color: white;
 }
 
 .songid {
@@ -18,7 +18,7 @@
     background-color: #2C5364;
     font-size: 120%;
     color: rgb(226, 226, 226);
-    width: 25px;
+    width: 20px;
     height: 20px;
     border-left: 0px;
     border-bottom: 0px;
@@ -26,7 +26,7 @@
 }
 
 .songname {
-    width: auto;
+    width: 250px;
 }
 
 .songDelete {
@@ -40,10 +40,8 @@
 }
 
 .song:hover {
-    background-color: rgb(210, 210, 210);
     opacity: 1;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
+    color: white;
 }
 
     .song:hover .songid {
@@ -54,24 +52,15 @@
 
     .song:hover .songDelete {
         width: 15px;
-        color: black;
+        color: white;
         opacity: 1;
     }
 
-button {
-    width: 100%;
-    background-color: #0F2027;
+.header {
+    width: 120px;
+    float: right;
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    font-size: 20px;
+    height: 30px;
+    text-align: center;
 }
-
-    button:hover {
-        background-color: #2C5364;
-        transition: background-color 0.6s;
-    }
-
-
