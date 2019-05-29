@@ -18,15 +18,15 @@
     background-color: #2C5364;
     font-size: 120%;
     color: rgb(226, 226, 226);
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     border-left: 0px;
     border-bottom: 0px;
     transition: border-left 0.2s, border-bottom 0.2s;
 }
 
 .songname {
-    width: 250px;
+    width: 500px;
 }
 
 .songDelete {
@@ -63,4 +63,24 @@
     font-size: 20px;
     height: 30px;
     text-align: center;
+}
+
+.btnAdd {
+    background-color: #2C5364;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    opacity: 0.5;
+    margin-top: 30px;
+    transition: border-left 0.2s, border-bottom 0.2s, opacity 0.2s;
+}
+
+.btnAdd:hover {
+    opacity: 1;
+    border-left: 2px solid #0F2027;
+    border-bottom: 2px solid #0F2027;
 }
