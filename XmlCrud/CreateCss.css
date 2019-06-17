@@ -19,7 +19,8 @@ input[type=text] {
 
 .btnAdd {
     background-color: #2C5364;
-    border: none;
+    border-left: 0px solid #0F2027;
+    border-bottom: 0px solid #0F2027;
     color: white;
     padding: 10px 15px;
     text-align: center;
