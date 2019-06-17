@@ -91,3 +91,8 @@ body {
         background-color: #14262d;
         transition: background-color 0.1s;
     }
+
+.btnDelete {
+    color: white;
+    text-align: center;
+}
