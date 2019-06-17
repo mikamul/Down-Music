@@ -6,7 +6,7 @@
     SongMethods mySongMethods = new SongMethods();
     string file = @"~\App_Data\Playlist.xml";
     DataSet ds = mySongMethods.GetAllSongs(file);
-    Session["platlistClass"] = mySongMethods;
+    Session["playlistClass"] = mySongMethods;
     Session["file"] = file;
 }
 
@@ -47,6 +47,5 @@
 
     <br /><br />
           <a href="Pages\CreateSong.cshtml"><button class='btnAdd'>Een nieuwe song toevoegen.</button></a>
-    <h1> oe moe</h1>
 </body>
 </html>
