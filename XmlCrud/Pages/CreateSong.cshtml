@@ -43,7 +43,7 @@
                 <td><input type="text" name="file" /></td>
             </tr>
             <tr>
-                <td></td>
+                <td><a href="~/index.cshtml"><button class='btnBack'><--</button></a></td>
                 <td><input type="submit" value="Een nieuwe song toevoegen" class="btnAdd"></td>
             </tr>
         </table>
@@ -51,6 +51,7 @@
 
     @if (IsPost)
     {
+
         DataRow dr = mySongMethods.GetEmptyDataRow();
 
         dr[0] = Request.Form["id"];

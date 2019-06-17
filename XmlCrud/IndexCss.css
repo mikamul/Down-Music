@@ -68,6 +68,8 @@ body {
 .btnAdd {
     background-color: #2C5364;
     border: none;
+    border-left: 0px solid #0F2027;
+    border-bottom: 0px solid #0F2027;
     color: white;
     padding: 10px 15px;
     text-align: center;
@@ -84,3 +86,8 @@ body {
     border-left: 2px solid #0F2027;
     border-bottom: 2px solid #0F2027;
 }
+
+    .btnAdd:active {
+        background-color: #14262d;
+        transition: background-color 0.1s;
+    }
