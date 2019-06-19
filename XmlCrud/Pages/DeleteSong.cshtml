@@ -14,10 +14,13 @@
     <title></title>
 </head>
 <body>
-    <div>Weet u zeker dat u deze song wilt verwijderen?</div>
-    <div><a href="~/index.cshtml"><button>Ja</button></a></div>
-    <div><a href="~/index.cshtml"><button>Cancel</button></a></div>
-
+    <form method="post">
+        <div>Weet u zeker dat u deze song wilt verwijderen?</div>
+        <input type="radio" name="keuze" value="ja" />Ja
+        <input type="radio" name="keuze" value="nee" />Nee
+        <br />
+        <input type="submit" value="verder" />
+    </form>
     @if (IsPost)
     {
         if (Request.Form["keuze"] == "ja")
