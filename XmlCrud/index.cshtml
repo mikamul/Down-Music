@@ -17,10 +17,13 @@
     <script src="~/Scripts/bootstrap.min.js"></script>
 </head>
 <body>
+    <h1> Down-Music</h1>
+
+    <a href="Pages\CreateSong.cshtml"><button class='btnAdd'>+</button></a>
     <br /><br />
 
-          <table class="tbl">
-              
+    <table class="tbl">
+
 
               @foreach (DataRow dr in ds.Tables["song"].Rows)
               {
@@ -29,7 +32,7 @@
                       <td><table><td class='songid'>@dr["id"]</td></table></td>
                       <td class='songname'>@dr["title"] - @dr["artist"]  @dr["genre"]</td>
                       <td>@dr["time"]</td>
-                      <td class='songDelete'><a href="~/Pages/DeleteSong.cshtml?id=@dr["id"]">x</a></td>
+                      <td class='songDelete'> x </td>
                   </tr>
               </table>
                   /*<tr>
@@ -45,7 +48,7 @@
               }
           </table>
 
-    <br /><br />
-          <a href="Pages\CreateSong.cshtml"><button class='btnAdd'>Een nieuwe song toevoegen.</button></a>
+    <br />
+
 </body>
 </html>
