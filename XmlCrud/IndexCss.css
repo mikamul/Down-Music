@@ -40,6 +40,11 @@ body {
     color: white; 
 }
 
+    .songDelete a {
+        text-decoration: none;
+        color: rgb(237, 16, 16);
+        font-weight: bold;
+    }
     .song:hover {
         opacity: 1;
         color: white;
