@@ -35,4 +35,20 @@
     <time>x</time>
     <file>x</file>
   </song>
+  <song>
+    <id>Test</id>
+    <artist>Test</artist>
+    <title>De Testede Test</title>
+    <genre>5</genre>
+    <time>10tje </time>
+    <file />
+  </song>
+  <song>
+    <id />
+    <artist />
+    <title />
+    <genre />
+    <time />
+    <file />
+  </song>
 </playlist>
