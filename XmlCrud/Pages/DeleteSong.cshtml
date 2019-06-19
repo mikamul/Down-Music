@@ -11,16 +11,20 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Delete</title>
+    <link rel="stylesheet" type="text/css" href="~/DeleteCss.css">
 </head>
 <body>
-    <form method="post">
-        <div>Weet u zeker dat u deze song wilt verwijderen?</div>
-        <input type="radio" name="keuze" value="ja" />Ja
-        <input type="radio" name="keuze" value="nee" />Nee
-        <br />
-        <input type="submit" value="verder" />
+    <div class="container">
+        <form method="post">
+            <h1>Weet u zeker dat u deze song wilt verwijderen?</h1>
+            <input type="radio" name="keuze" value="ja"  class="radiobox"/>Ja
+            <input type="radio" name="keuze" value="nee" class="radiobox"/>Nee
+            <br />
+            <br />
+            <input type="submit" value="verder" class="btnVerder" />
     </form>
+    </div>
     @if (IsPost)
     {
         if (Request.Form["keuze"] == "ja")

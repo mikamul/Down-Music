@@ -1,0 +1,56 @@
+﻿* {
+    padding: 0px;
+    height: auto;
+    width: auto;
+}
+
+body {
+    font-family: Sans-serif;
+    background-image: linear-gradient(to right, black, #2C5364);
+    color: white;
+}
+
+h1 {
+    letter-spacing: 1px;
+    color: white;
+}
+
+.container {
+    margin-top: 20%; 
+    display: block;
+    position: center;
+    text-align: center;
+}
+
+.radiobox input:checked {
+    background-color: blue;
+}
+
+.btnVerder {
+    background-color: #2C5364;
+    border: none;
+    border-left: 0px solid #0F2027;
+    border-bottom: 0px solid #0F2027;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    opacity: 0.5;
+    transition: border-left 0.2s, border-bottom 0.2s, opacity 0.2s;
+    width: 100px;
+    height: 40px;
+}
+
+    .btnVerder:hover {
+        opacity: 1;
+        border-left: 2px solid #0F2027;
+        border-bottom: 2px solid #0F2027;
+    }
+
+    .btnVerder:active {
+        background-color: #14262d;
+        transition: background-color 0.1s;
+    }
+
